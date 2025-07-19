@@ -1,6 +1,6 @@
 ## SECOND: Write SQL to Answer Stakeholder Questions
 
-In this step, I have provided six queries, each in its own file under `sql/`
+In this step, I have provided six queries, each in its own separate file.
 
 
 ### Stakeholder Questions
