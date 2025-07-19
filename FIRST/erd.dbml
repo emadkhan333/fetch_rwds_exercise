@@ -1,0 +1,44 @@
+Table dim_user {
+  user_id varchar [pk]
+  state varchar
+  created_date timestamp
+  last_login timestamp
+  role varchar
+  active boolean
+}
+
+Table dim_brand {
+  brand_id varchar [pk]
+  barcode varchar
+  brand_code varchar
+  name varchar
+  category varchar
+  category_code varchar
+  cpg_id varchar
+  top_brand boolean
+}
+
+Table fact_receipt {
+  receipt_id varchar [pk]
+  user_id varchar [ref: > dim_user.user_id]
+  bonus_points_earned int
+  bonus_points_reason varchar
+  create_date timestamp
+  date_scanned timestamp
+  finished_date timestamp
+  modify_date timestamp
+  points_awarded_date timestamp
+  points_earned int
+  purchase_date date
+  purchased_item_count int
+  rewards_receipt_status varchar
+  total_spent numeric
+}
+
+Table fact_receipt_item {
+  receipt_item_id varchar [pk]  
+  receipt_id varchar [ref: > fact_receipt.receipt_id]
+  barcode varchar [ref: > dim_brand.barcode]
+  quantity int
+  item_price numeric
+}
