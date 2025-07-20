@@ -15,7 +15,6 @@ This repository contains my solution to the Fetch Rewards Analytics Engineer exe
 └── FOURTH/
     └── README.md : Stakeholder communication
 ```
----
 
 FIRST: **Review the schema**  
    Open `FIRST/README.md` to see the proposed star schema and a humanized rationale.
