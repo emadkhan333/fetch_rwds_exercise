@@ -3,7 +3,7 @@
 
 Hi team,
 
-I’ve completed an initial review of our sample receipt data and identified a few areas where I could benefit from your input before proceeding to full-scale ingestion and reporting. Below is a summary of what I found, along with the questions that will help us ensure accuracy and performance.
+I have completed an initial review of our sample receipt data and identified a few areas where I could benefit from your input before proceeding to full-scale ingestion and reporting. Below is a summary of what I found, along with the questions that will help us ensure accuracy and performance.
 
 ---
 
