@@ -21,10 +21,10 @@ This repository contains my solution to the Fetch Rewards Analytics Engineer exe
 
 ```text
 ├── FIRST/
-│   └── README.md   : ER diagram & schema rationale
+│   └── README.md : ER diagram & schema rationale
 ├── SECOND/
-│   └── README.md   : SQL queries for stakeholder questions
+│   └── README.md : SQL queries for stakeholder questions
 ├── THIRD/
-│   └── README.md   : Data‐quality checks & exploratory notebook
+│   └── README.md : Data‐quality checks & exploratory notebook
 └── FOURTH/
-    └── README.md   : Stakeholder communication
+    └── README.md : Stakeholder communication
