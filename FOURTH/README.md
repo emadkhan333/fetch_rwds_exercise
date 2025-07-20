@@ -3,7 +3,7 @@
 
 Hi team,
 
-I have taken a first pass at our sample receipt data and wanted to share a few early observations—and ask for your guidance, so we start off on the right foot.
+I have completed an initial review of our receipt data and identified a few areas where I could benefit from your input before proceeding to full-scale ingestion and reporting. Below is a summary of what I found, along with the questions that will help us ensure accuracy and performance.
 
 ---
 
