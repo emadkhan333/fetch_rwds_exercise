@@ -54,5 +54,6 @@ I have completed an initial review of our sample receipt data and identified a f
 
 I'd be happy to jump on a quick call to demo the schema and walk through these points. Thanks for your guidance!
 
-Emad, 
+Emad,
+
 Analytics Engineer  
