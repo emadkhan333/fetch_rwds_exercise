@@ -1,3 +1,11 @@
+**To:** @ProductOps  
+**Subject:** Quick Check-In: Receipt Data Insights & Next Steps
+
+Hi team,
+
+I have taken a first pass at our sample receipt data and wanted to share a few early observations—and ask for your guidance, so we start off on the right foot.
+
+---
 
 ### What I’ve Noticed
 - **Weird Spending Values**  
