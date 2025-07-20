@@ -3,9 +3,6 @@
 This repository contains my solution to the Fetch Rewards Analytics Engineer exercise. The work is organized into four folders—one per step—and each folder includes a README.md explaining that step, along with any SQL scripts, diagrams, or notebooks.
 
 <details> <summary>Click to expand “Repository Structure”</summary>
-text
-Copy
-Edit
 ├── FIRST/
 │   └── README.md   : ER diagram & schema rationale
 ├── SECOND/
