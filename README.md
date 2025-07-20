@@ -2,17 +2,6 @@
 
 This repository contains my solution to the Fetch Rewards Analytics Engineer exercise. The work is organized into four folders—one per step—and each folder includes a README.md explaining that step, along with any SQL scripts, diagrams, or notebooks.
 
-<details> <summary>Click to expand “Repository Structure”</summary>
-├── FIRST/
-│   └── README.md   : ER diagram & schema rationale
-├── SECOND/
-│   └── README.md   : SQL queries for stakeholder questions
-├── THIRD/
-│   └── README.md   : Data‐quality checks & exploratory notebook
-└── FOURTH/
-    └── README.md   : Stakeholder communication
-</details>
-
 
 1. **Review the schema**  
    Open `FIRST/README.md` to see the proposed star schema and a humanized rationale.
@@ -27,3 +16,15 @@ This repository contains my solution to the Fetch Rewards Analytics Engineer exe
    `FOURTH/README.md` contains the email message that summarizes findings, raises questions, and outlines next steps for a non-technical audience.
 
 ---
+
+## Repository Structure
+
+```text
+├── FIRST/
+│   └── README.md   : ER diagram & schema rationale
+├── SECOND/
+│   └── README.md   : SQL queries for stakeholder questions
+├── THIRD/
+│   └── README.md   : Data‐quality checks & exploratory notebook
+└── FOURTH/
+    └── README.md   : Stakeholder communication
