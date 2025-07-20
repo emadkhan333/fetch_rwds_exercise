@@ -7,7 +7,7 @@ I’ve completed an initial review of our sample receipt data and identified a f
 
 ---
 
-### 🔍 Data Quality Findings
+### Data Quality Findings
 1. **Null or Negative Spend**  
    • ~0.5% of receipts have `total_spent` either missing or negative.  
    • Discovered by running a simple SQL check: `WHERE total_spent IS NULL OR total_spent < 0`.
@@ -26,7 +26,7 @@ I’ve completed an initial review of our sample receipt data and identified a f
 
 ---
 
-### ❓ Questions for You
+### Questions for You
 1. **Spend Corrections**  
    - How should we handle negative or missing `total_spent`? Default to zero, drop the record, or flag for manual review?
 
@@ -45,7 +45,7 @@ I’ve completed an initial review of our sample receipt data and identified a f
 
 ---
 
-### ⚙️ Performance & Scaling
+### Performance & Scaling
 - **Partitioning:** Plan to partition `fact_receipt` by month and index on `purchase_date` for speedy time-based queries.  
 - **Bulk Loads:** Expecting daily JSON batches—will use parallel COPY/ingest jobs to keep latency under 15 minutes.  
 - **SLAs:** What’s our target query response time for dashboard lookups (top 5, drilldowns, etc.)?
