@@ -3,7 +3,7 @@
 
 Hi team,
 
-I’ve completed an initial review of our sample receipt data and uncovered a few areas where I could use your input before moving to full-scale ingestion and reporting. Below is a summary of what I found and the questions that will help us ensure accuracy and performance.
+I’ve completed an initial review of our sample receipt data and identified a few areas where I could benefit from your input before proceeding to full-scale ingestion and reporting. Below is a summary of what I found, along with the questions that will help us ensure accuracy and performance.
 
 ---
 
@@ -52,6 +52,7 @@ I’ve completed an initial review of our sample receipt data and uncovered a fe
 
 ---
 
-Happy to jump on a quick call to demo the schema and walk through these points. Thanks for your guidance!
+I'd be happy to jump on a quick call to demo the schema and walk through these points. Thanks for your guidance!
 
-— [Your Name], Analytics Engineer  
+Emad, 
+Analytics Engineer  
